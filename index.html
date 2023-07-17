@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <title>Página de Inicio</title>
+</head>
+
+<body>
+  <div id="contenedor">
+    <header>
+      <img src="images/logo.png" alt="Logo" width="50">
+      <h1>Caja Pizzería</h1>
+    </header>
+    <main>
+      <form id="formulario">
+        <label><h2>Ingresa Los datos de tu compra:</h2></label>
+        <input type="number" name="id" id="id" placeholder="Ingrese el id del producto">
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre del producto">
+        <input type="number" name="cantidad" id="cantidad" placeholder="Ingrese la cantidad">
+        <input type="number" name="precio" id="precio" placeholder="Ingrese el precio del producto">
+        <input type="submit" class="boton" id="agregar" value="Agregar">
+      </form>
+      <div id="lista-compra">
+        
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
